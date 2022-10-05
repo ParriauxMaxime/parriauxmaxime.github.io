@@ -1,0 +1,24 @@
+{
+  "singleQuote": true,
+  "importOrder": [
+    "^react(-(.*))?$",
+    "^[a-zA-Z](.*)$",
+    "^@((fortawesome)|(smartrenting))(.*)$",
+    "^@config(.*)$",
+    "^@enum(.*)$",
+    "^@utils/(.*)$",
+    "^@models(.*)$",
+    "^@api/(.*)$",
+    "^@contexts(.*)$",
+    "^@hooks(.*)$",
+    "^@components(.*)$",
+    "^@scopes(.*)$",
+    "^[./]{3}",
+    "^[./]{1,2}([a-zA-Z0-9/]+)(?!(scss|svg))$",
+    "^(.*).d$",
+    "^(.*)svg$",
+    "^(.*)s?css$"
+  ],
+  "importOrderParserPlugins": ["classProperties", "jsx", "typescript"],
+  "importOrderSeparation": true
+}

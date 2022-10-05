@@ -1,0 +1,70 @@
+{
+  "greeting": "Spock",
+  "header": {
+    "me": "Moi",
+    "projects": "Projets",
+    "educations": "Éducation"
+  },
+  "presentation": "<strong>Maxime</strong>, développeur fullstack spécialisé dans l'éco-système React/Node.<br /> Mes précédentes experiences incluent:",
+  "experiences": {
+    "smartrenting": "<strong>Smartrenting</strong>: Agence immobilière spécialisé dans la location saisonnal et de courte durée",
+    "carrevolutis": "<strong>Carrevolutis</strong>: Agence digitale de recrutement basé sur l'évènementiel",
+    "4js": "<strong>4JS</strong>: Un éditeur de progiciel de gestion orienté concurrentiel",
+    "whitequest": "<strong>WhiteQuest</strong>: Organisme de formation pour les opérations en salle blanche"
+  },
+  "focus": "Mon but professionnel est d'atteindre des livrables réguliers et consistant pour les parti-prenants de mes projets et d'apporter une DeveloperXperience satisfaisante à mes collègues",
+  "projects": {
+    "title": "Projets",
+    "lloyd": {
+      "title": "Lloyd",
+      "description": "Lloyd est l'<strong>ERP</strong> conçu en interne par <strong>Smartrenting</strong> pour automatiser la prise en <strong>gestion</strong> de <strong>biens locatif</strong> (prospection, réservation, ménage, états des lieux, ...)",
+      "stack": "React, Nest, Postgres, Redis, Typescript, AWS",
+      "skills": "Archi - Microservices - Scaling"
+    },
+    "bizzeo": {
+      "title": "Bizzeo",
+      "description": "Bizzeo est l'application mobile de Carrevolutis destinée à l'organisation d'évènement de <strong>réseautage</strong> et de <strong>recrutement</strong> pour les <strong>fonctions commerciales</strong>",
+      "stack": "Flow, React-Native, React, Prisma, GraphQL, Mongo",
+      "skills": "Mobile - Web - Backend"
+    },
+    "web-ascii-art": {
+      "title": "web-ascii-art",
+      "description": "One-day challenge sur l'API HTML Canvas et les convolutions, affiche un rendu en ascii-art de votre caméra",
+      "stack": "React, Typescript",
+      "skills": "Pixel art - Maths"
+    },
+    "whatsapp-pixel-art": {
+      "title": "whatsapp-pixel-art",
+      "description": "Le saviez-vous ?<br /> Whatsapp affiche très exactement 13 emojis par ligne.<br /> Maintenant, oui.",
+      "stack": "React, Typescript",
+      "skills": "Pixel-art"
+    }
+  },
+  "educations": {
+    "title": "Éducations",
+    "epitech_paris": {
+      "title": "Epitech Paris 🇫🇷",
+      "date": "2018 - 2019",
+      "description": "La fin du parcours Epitech",
+      "skills": "Algo - React - React-Native"
+    },
+    "roskilde_university": {
+      "title": "Roskilde Uni 🇩🇰",
+      "date": "2017-2018",
+      "description": "Erasmus",
+      "skills": "JS - Web - Gestion de projet"
+    },
+    "epitech_strasbourg": {
+      "title": "Epitech Strasbourg 🇫🇷",
+      "date": "2015 - 2017",
+      "description": "Entrée à Epitech Strasbourg",
+      "skills": "Git - C - C++ - Python"
+    },
+    "jules_haag": {
+      "title": "Lycée Jules Haag 🇫🇷",
+      "date": "2013 - 2015",
+      "description": "Entrée à Epitech Strasbourg",
+      "skills": "Hardware - Industrie - Embarqué"
+    }
+  }
+}
