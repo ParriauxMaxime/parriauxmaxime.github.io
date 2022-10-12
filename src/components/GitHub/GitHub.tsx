@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { HTMLProps } from 'react';
 
-export default function GitHub({ href }: { href: string }) {
+export default function GitHub({
+  href,
+  className,
+}: {
+  href: string;
+  className?: HTMLProps<SVGElement>['className'];
+}) {
   return (
     <a target="_blank" href={href} rel="noreferrer" className="z-10">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="mx-2 md:mx-4 cursor-pointer invert dark:invert-0 h-full"
+        className={`${className} cursor-pointer invert dark:invert-0 h-full`}
         aria-hidden="true"
         role="img"
-        width="40"
-        height="40"
+        width="64"
+        height="64"
         preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 24 24"
       >

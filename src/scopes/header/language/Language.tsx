@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import useLocalStorage from '../../../hooks/useLocalStorage/useLocalStorage';
 
-const languages = {
+export const languages = {
   FR: 'fr',
   EN: 'en',
 };
@@ -13,7 +13,7 @@ const flags = {
   [languages.EN]: '🇺🇸',
 };
 
-const LANGUAGE_LOCAL_STORAGE_KEY = 'language';
+export const LANGUAGE_LOCAL_STORAGE_KEY = 'language';
 
 export default function Language() {
   const { i18n } = useTranslation();
@@ -25,15 +25,22 @@ export default function Language() {
     (value) => value.slice(0, 2)
   );
 
-  const handleClick = () => {
-    const value = language === languages.FR ? languages.EN : languages.FR;
-    setLanguage(value);
-    i18n.changeLanguage(value);
-  };
+  useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [language]);
+
+  const inverseValue = useMemo(
+    () => (language === languages.FR ? languages.EN : languages.FR),
+    [language]
+  );
+
+  const handleClick = useCallback(() => {
+    setLanguage(inverseValue);
+  }, [inverseValue]);
 
   return (
     <div onClick={handleClick} className="px-2 cursor-pointer select-none">
-      {flags[language]}
+      {flags[inverseValue]}
     </div>
   );
 }

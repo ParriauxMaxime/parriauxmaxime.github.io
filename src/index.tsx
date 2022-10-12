@@ -26,6 +26,7 @@ i18next
         translation: fr,
       },
     },
+    fallbackLng: 'en',
     react: {
       transKeepBasicHtmlNodesFor: ['strong', 'a', 'i', 'br'],
     },

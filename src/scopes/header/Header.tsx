@@ -9,6 +9,7 @@ import Language from './language/Language';
 export default function Header() {
   const { t } = useTranslation();
   const deltaScrollRef = useRef<number>(0);
+  const fixed = useRef<boolean>(false);
   const [show, setShow] = useState(true);
 
   useEffect(() => {
@@ -17,7 +18,7 @@ export default function Header() {
       if (root.scrollTop + 25 < deltaScrollRef.current) {
         setShow(true);
       }
-      if (root.scrollTop > deltaScrollRef.current + 35) {
+      if (!fixed.current && root.scrollTop > deltaScrollRef.current + 35) {
         setShow(false);
       }
       deltaScrollRef.current = root.scrollTop;
@@ -29,6 +30,19 @@ export default function Header() {
     };
   }, []);
 
+  const handleClick = (link: string) => (event: MouseEvent) => {
+    event.preventDefault();
+    const elem = document.getElementById(link);
+    fixed.current = true;
+    window.scrollBy({
+      top: (elem?.getBoundingClientRect().top || 0) - 75,
+      behavior: 'smooth',
+    });
+    setTimeout(() => {
+      fixed.current = false;
+    }, 1000);
+  };
+
   return (
     <header
       style={{
@@ -38,12 +52,7 @@ export default function Header() {
     >
       <a
         className="not-prose text-white px-1 md:px-2 py-1 mr-auto"
-        href="#me"
-        onClick={() => {
-          const elem = document.getElementById('me');
-          console.info(elem?.offsetHeight);
-          window.scrollTo({ top: elem?.offsetHeight });
-        }}
+        onClick={handleClick('me')}
       >
         <img
           className="h-12 md:h-16 rounded-full"
@@ -53,28 +62,20 @@ export default function Header() {
       </a>
       <a
         className="text-white px-1 md:px-2 py-1 no-underline"
-        href="#projects"
-        onClick={() => {
-          const elem = document.getElementById('projects');
-          window.scrollTo({ top: elem?.offsetHeight });
-        }}
+        onClick={handleClick('projects')}
       >
         <Underline>{t('header.projects')}</Underline>
       </a>
       <a
         className="text-white px-1 md:px-2 py-1 no-underline"
-        href="#educations"
+        onClick={handleClick('educations')}
       >
         <Underline>{t('header.educations')}</Underline>
       </a>
       <div className="mx-2">
-        <Underline>
-          <Language />
-        </Underline>
+        <Language />
       </div>
-      <Underline>
-        <DarkMode />
-      </Underline>
+      <DarkMode />
     </header>
   );
 }

@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { HTMLProps } from 'react';
 
-export default function LinkedIn() {
+export default function LinkedIn({
+  className,
+}: Pick<HTMLProps<HTMLLinkElement>, 'className'>) {
   return (
-    <a href="https://www.linkedin.com/in/maxime-parriaux/">
+    <a
+      className={className}
+      href="https://www.linkedin.com/in/maxime-parriaux/"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
         className="cursor-pointer rounded-full bg-white h-full w-full"
         role="img"
-        width="40"
-        height="40"
+        width="64"
+        height="64"
         preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 256 256"
       >

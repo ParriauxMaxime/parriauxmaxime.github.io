@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { HTMLProps } from 'react';
 
-export default function Mail() {
+export default function Mail({
+  className,
+}: Pick<HTMLProps<SVGElement>, 'className'>) {
   return (
     <a href="mailto:maxime.parriaux.pro@gmail.com">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
-        className="p-1 mx-2 md:mx-3 cursor-pointer h-full w-full"
+        className={className + ' ' + 'cursor-pointer h-full w-full'}
         role="img"
-        width="53.06"
-        height="40"
+        width="64"
+        height="64"
         preserveAspectRatio="xMidYMid meet"
-        viewBox="0 0 256 193"
+        viewBox="0 0 256 200"
       >
         <path
           fill="#4285F4"

@@ -5,25 +5,26 @@
     "projects": "Projets",
     "educations": "Éducation"
   },
-  "presentation": "<strong>Maxime</strong>, développeur fullstack spécialisé dans l'éco-système React/Node.<br /> Mes précédentes experiences incluent:",
+  "resume": "CV",
+  "presentation": "<strong>Maxime</strong>, passionné par les écosystèmes <strong>React</strong>, <strong>Node</strong> et <strong>Typescript</strong> depuis plus de <strong>5 ans</strong>.<br/><br/>Mes précédentes expériences incluent:",
   "experiences": {
-    "smartrenting": "<strong>Smartrenting</strong>: Agence immobilière spécialisé dans la location saisonnal et de courte durée",
+    "smartrenting": "<strong>Smartrenting</strong>: Agence immobilière spécialisée dans la location saisonnière de courte durée",
     "carrevolutis": "<strong>Carrevolutis</strong>: Agence digitale de recrutement basé sur l'évènementiel",
-    "4js": "<strong>4JS</strong>: Un éditeur de progiciel de gestion orienté concurrentiel",
+    "4js": "<strong>4JS</strong>: Éditeur de progiciel de gestion orienté concurrentiel",
     "whitequest": "<strong>WhiteQuest</strong>: Organisme de formation pour les opérations en salle blanche"
   },
-  "focus": "Mon but professionnel est d'atteindre des livrables réguliers et consistant pour les parti-prenants de mes projets et d'apporter une DeveloperXperience satisfaisante à mes collègues",
+  "focus": "Je sais <strong>concevoir</strong>, <strong>implémenter</strong> et <strong>scale</strong> des fonctionnalités orientées métier.<br />La conception est scolaire, l’implémentation découle de la connaissance, mais <strong>pour scale il faut jouer collectif.</strong><br/><br/>Mon objectif est d'offrir la meilleure valeur aux parties prenantes tout en fournissant des logiciels de <strong>qualité</strong>, <strong>fiables</strong> et <strong>évolutifs</strong>, avec une touche de <strong>DX délicieuse</strong>.<br />",
   "projects": {
     "title": "Projets",
     "lloyd": {
       "title": "Lloyd",
-      "description": "Lloyd est l'<strong>ERP</strong> conçu en interne par <strong>Smartrenting</strong> pour automatiser la prise en <strong>gestion</strong> de <strong>biens locatif</strong> (prospection, réservation, ménage, états des lieux, ...)",
+      "description": "Lloyd est l'<strong>ERP</strong> conçu en interne par <strong>Smartrenting</strong> pour automatiser la prise en <strong>gestion</strong> de <strong>biens locatifs</strong> (prospection, réservation, ménage, états des lieux, ...)",
       "stack": "React, Nest, Postgres, Redis, Typescript, AWS",
       "skills": "Archi - Microservices - Scaling"
     },
     "bizzeo": {
       "title": "Bizzeo",
-      "description": "Bizzeo est l'application mobile de Carrevolutis destinée à l'organisation d'évènement de <strong>réseautage</strong> et de <strong>recrutement</strong> pour les <strong>fonctions commerciales</strong>",
+      "description": "Bizzeo est l'application mobile de Carrevolutis destiné à l'organisation d'évènement de <strong>réseautage</strong> et de <strong>recrutement</strong> pour les <strong>fonctions commerciales</strong>",
       "stack": "Flow, React-Native, React, Prisma, GraphQL, Mongo",
       "skills": "Mobile - Web - Backend"
     },
@@ -45,25 +46,25 @@
     "epitech_paris": {
       "title": "Epitech Paris 🇫🇷",
       "date": "2018 - 2019",
-      "description": "La fin du parcours Epitech",
+      "description": "<strong>Master<br />“Titre d’Expert(e) en Technologies de l’Information”</strong><br/><br/>Diplômé avec un GPA de 3.0",
       "skills": "Algo - React - React-Native"
     },
     "roskilde_university": {
       "title": "Roskilde Uni 🇩🇰",
       "date": "2017-2018",
-      "description": "Erasmus",
+      "description": "<strong>Master Computer Science and organization theory, 1st year</strong><br />Minor en développement web et robotique",
       "skills": "JS - Web - Gestion de projet"
     },
     "epitech_strasbourg": {
       "title": "Epitech Strasbourg 🇫🇷",
       "date": "2015 - 2017",
-      "description": "Entrée à Epitech Strasbourg",
+      "description": "<strong>Bachelor<br />“Titre d’Expert(e) en Technologies de l’Information”</strong><br/>⭐ Major de la “piscine” promo 2019",
       "skills": "Git - C - C++ - Python"
     },
     "jules_haag": {
       "title": "Lycée Jules Haag 🇫🇷",
       "date": "2013 - 2015",
-      "description": "Entrée à Epitech Strasbourg",
+      "description": "<strong>BTS IRIS</strong><br />Informatique et Réseau pour l'Industrie et les Services<br/>⭐ Major de promo",
       "skills": "Hardware - Industrie - Embarqué"
     }
   }

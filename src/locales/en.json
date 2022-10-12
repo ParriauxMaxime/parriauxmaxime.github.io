@@ -6,14 +6,15 @@
     "projects": "Projects",
     "educations": "Educations"
   },
-  "presentation": "I'm <strong>Maxime</strong>, a Full Stack Software Engineer specializing in React & Node ecosystem.<br /> My previous experiences includes :",
+  "resume": "Resume",
+  "presentation": "<strong>Maxime</strong>, full-stack software engineer with <strong>5+ years</strong> of experience, passionate about <strong>React</strong>, <strong>Node</strong> and <strong>Typescript</strong> ecosystems.<br /><br /> My previous experiences includes :",
   "experiences": {
     "smartrenting": "<strong>Smartrenting</strong>: Real estate agency specialized in seasonal and short-term rentals",
     "carrevolutis": "<strong>Carrevolutis</strong>: Agency focused on digital recruitment events",
     "4js": "<strong>4JS</strong>: ERP software editor specialized in high concurrency and high availability environment",
     "whitequest": "<strong>WhiteQuest</strong>: Clean room trainings organism"
   },
-  "focus": "My main focus is to consistently deliver the best value to stakeholders and a desirable developer experience to my coworkers",
+  "focus": "I know how to <strong>design</strong>, <strong>implement</strong> and <strong>scale</strong> business-oriented features.<br/>Design is academic, implementation reflects knowledge, but <strong>if you want to scale, you need team-play</strong>.<br/><br/>My main focus is to deliver the best value to my stakeholders while delivering <strong>high-quality</strong>, <strong>scalable</strong>, <strong>reliable</strong> software, with a touch of <strong>delightful DX.</strong>",
   "projects": {
     "title": "Projets",
     "lloyd": {
@@ -46,26 +47,26 @@
     "epitech_paris": {
       "title": "Epitech Paris 🇫🇷",
       "date": "2018 - 2019",
-      "description": "La fin du parcours Epitech",
+      "description": "<strong>M.Sc. Computer Sciences</strong><br/>Graduated with a GPA of 3.0",
       "skills": "Algo - React - React-Native"
     },
     "roskilde_university": {
       "title": "Roskilde Uni 🇩🇰",
       "date": "2017-2018",
-      "description": "Erasmus",
+      "description": "<strong>M.Sc. Computer Science and organization theory, 1st year</strong><br/>Minors: Web-development, Robotics",
       "skills": "JS - Web - Project management"
     },
     "epitech_strasbourg": {
       "title": "Epitech Strasbourg 🇫🇷",
       "date": "2015 - 2017",
-      "description": "Entrée à Epitech Strasbourg",
+      "description": "<strong>B.Sc. Computer Science</strong><br/><br />⭐ Valedictorian 2019 of Epitech's “Piscine”",
       "skills": "Git - C - C++ - Python"
     },
     "jules_haag": {
-      "title": "Lycée Jules Haag 🇫🇷",
+      "title": "Jules Haag HS 🇫🇷",
       "date": "2013 - 2015",
-      "description": "Entrée à Epitech Strasbourg",
-      "skills": "Hardware - Industrie - Embarqué"
+      "description": "<strong>BTS IRIS</strong><br />2-year computer science technical degree<br/>⭐ Valedictorian",
+      "skills": "Hardware - Industry - Embedded"
     }
   }
 }

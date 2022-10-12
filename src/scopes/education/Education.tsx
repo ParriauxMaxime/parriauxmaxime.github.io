@@ -51,7 +51,7 @@ export default function Education() {
   const { t } = useTranslation();
 
   return (
-    <Article id="education">
+    <Article id="educations">
       <>
         <div className="prose dark:prose-invert mb-6">
           <h1 className="prose-h1">
