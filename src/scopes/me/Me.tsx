@@ -38,9 +38,10 @@ export default function Me() {
               </h1>
               <Popover popover={'Resume'}>
                 <a
-                  download
+                  target="_blank"
                   href={resumeRef[language]}
                   className="flex items-center justify-center prose-2xl h-12 w-12 hover:translate-x-[0.25rem] hover:translate-y-[-0.25rem] shadow bg-accent dark:bg-accent-dark dark:hover:bg-accent rounded-full transition-all cursor-pointer no-underline"
+                  rel="noreferrer"
                 >
                   📄
                 </a>
