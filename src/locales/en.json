@@ -4,7 +4,7 @@
     "me": "Me",
     "experiences": "Achievements",
     "projects": "Projects",
-    "educations": "Educations"
+    "educations": "Education"
   },
   "resume": "Resume",
   "presentation": "<strong>Maxime</strong>, full-stack software engineer with <strong>5+ years</strong> of experience, passionate about <strong>React</strong>, <strong>Node</strong> and <strong>Typescript</strong> ecosystems.<br /><br /> My previous experiences includes :",
@@ -16,7 +16,7 @@
   },
   "focus": "I know how to <strong>design</strong>, <strong>implement</strong> and <strong>scale</strong> business-oriented features.<br/>Design is academic, implementation reflects knowledge, but <strong>if you want to scale, you need team-play</strong>.<br/><br/>My main focus is to deliver the best value to my stakeholders while delivering <strong>high-quality</strong>, <strong>scalable</strong>, <strong>reliable</strong> software, with a touch of <strong>delightful DX.</strong>",
   "projects": {
-    "title": "Projets",
+    "title": "Projects",
     "lloyd": {
       "title": "Lloyd",
       "description": "Lloyd is an ERP developed by Smartrenting in order to automate trivial and non-trivial tasks inherent from subleasing business (prospecting, bookings, cleanings, inventories, ...)",
@@ -43,7 +43,7 @@
     }
   },
   "educations": {
-    "title": "Educations",
+    "title": "Education",
     "epitech_paris": {
       "title": "Epitech Paris 🇫🇷",
       "date": "2018 - 2019",
