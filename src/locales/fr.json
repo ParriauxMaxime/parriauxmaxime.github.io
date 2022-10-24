@@ -34,6 +34,12 @@
       "stack": "React, Typescript",
       "skills": "Pixel art - Maths"
     },
+    "skyquest": {
+      "title": "Skyquest",
+      "description": "\"Tu retrouveras jamais mon <0>Skyblog</0>\"<br /><strong>Challenge accepted</strong>",
+      "stack": "Nest, JSDOM, Postgres",
+      "skills": "Crawler - Data"
+    },
     "whatsapp-pixel-art": {
       "title": "whatsapp-pixel-art",
       "description": "Le saviez-vous ?<br /> Whatsapp affiche très exactement 13 emojis par ligne.<br /> Maintenant, oui.",

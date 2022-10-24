@@ -3,7 +3,7 @@
   "header": {
     "me": "Me",
     "experiences": "Achievements",
-    "projects": "Projects",
+    "projects": "Project",
     "educations": "Education"
   },
   "resume": "Resume",
@@ -16,7 +16,7 @@
   },
   "focus": "I know how to <strong>design</strong>, <strong>implement</strong> and <strong>scale</strong> business-oriented features.<br/>Design is academic, implementation reflects knowledge, but <strong>if you want to scale, you need team-play</strong>.<br/><br/>My main focus is to deliver the best value to my stakeholders while delivering <strong>high-quality</strong>, <strong>scalable</strong>, <strong>reliable</strong> software, with a touch of <strong>delightful DX.</strong>",
   "projects": {
-    "title": "Projects",
+    "title": "Project",
     "lloyd": {
       "title": "Lloyd",
       "description": "Lloyd is an ERP developed by Smartrenting in order to automate trivial and non-trivial tasks inherent from subleasing business (prospecting, bookings, cleanings, inventories, ...)",
@@ -34,6 +34,12 @@
       "description": "One-day challenge, toying around HTML canvas api and convolution, render an ascii-art from your camera feed ",
       "stack": "React, Typescript",
       "skills": "Pixel art - Maths"
+    },
+    "skyquest": {
+      "title": "Skyquest",
+      "description": "A Skyblog oddity<br/><0>Skyrock.com</0> is a social networking site based in France which apparently forgot to implement a rate limiter",
+      "stack": "Nest, JSDOM, SQL",
+      "skills": "Crawler - Data"
     },
     "whatsapp-pixel-art": {
       "title": "whatsapp-pixel-art",

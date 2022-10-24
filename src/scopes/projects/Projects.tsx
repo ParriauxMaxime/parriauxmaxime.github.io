@@ -10,6 +10,7 @@ const projects = [
   'lloyd',
   'bizzeo',
   'web-ascii-art',
+  'skyquest',
   'whatsapp-pixel-art',
 ] as const;
 
@@ -39,6 +40,11 @@ const links: Record<typeof projects[number], JSX.Element> = {
       <GitHub href="https://github.com/ParriauxMaxime/web-ascii-art" />
     </div>
   ),
+  skyquest: (
+    <div className="w-[25%] flex justify-center items-center">
+      <GitHub href="https://github.com/ParriauxMaxime/skyquest" />
+    </div>
+  ),
   'whatsapp-pixel-art': (
     <div className="w-[25%] flex justify-center items-center">
       <GitHub href="https://github.com/ParriauxMaxime/whatsapp-pixel-art" />
@@ -49,6 +55,7 @@ const links: Record<typeof projects[number], JSX.Element> = {
 const hrefs: Record<typeof projects[number], string> = {
   lloyd: 'https://smart-renting.com/',
   bizzeo: 'https://bizzeo.co/',
+  skyquest: 'https://github.com/ParriauxMaxime/skyquest',
   'web-ascii-art': 'https://web-ascii-art.netlify.app/',
   'whatsapp-pixel-art': 'https://whatsapp-pixel-art.netlify.app/',
 };

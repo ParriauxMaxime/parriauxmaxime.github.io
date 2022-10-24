@@ -29,7 +29,19 @@ export default function Card({
             <Trans>{subtitle}</Trans>
           </div>
           <span className="prose-sm">
-            <Trans>{description}</Trans>
+            <Trans
+              components={[
+                <a
+                  key="skyrock"
+                  target="_blank"
+                  href="https://skyrock.com"
+                  className="relative z-10"
+                  rel="noreferrer"
+                />,
+              ]}
+            >
+              {description}
+            </Trans>
           </span>
         </div>
         {link}
