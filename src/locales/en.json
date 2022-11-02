@@ -37,7 +37,7 @@
     },
     "skyquest": {
       "title": "Skyquest",
-      "description": "A Skyblog oddity<br/><0>Skyrock.com</0> is a social networking site based in France which apparently forgot to implement a rate limiter",
+      "description": "A Skyblog oddity<br/><0>Skyrock.com</0> is a social networking site based in France that apparently forgot to implement a rate limiter",
       "stack": "Nest, JSDOM, SQL",
       "skills": "Crawler - Data"
     },

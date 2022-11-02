@@ -19,7 +19,7 @@ export default function Card({
   href,
 }: CardProps) {
   return (
-    <div className="relative z-10 border-hidden flex w-90vw lg:w-[400px] xl:w-[500px] 2xl:w-[600px] h-auto md:min-h-[230px] p-4 md:p-6 mt-4 m-4 xl:mb-8 rounded-lg cursor-pointer hover:translate-x-[0.25rem] hover:translate-y-[-0.25rem] bg-white dark:bg-secondary-dark dark:hover:bg-slate-600 transition-all duration-200 shadow">
+    <div className="relative z-10 border-hidden flex w-[90vw] lg:w-[400px] xl:w-[500px] 2xl:w-[600px] h-auto md:min-h-[230px] p-4 md:p-6 mt-4 m-0 my-2 md:m-4 xl:mb-8 rounded-lg cursor-pointer hover:translate-x-[0.25rem] hover:translate-y-[-0.25rem] bg-white dark:bg-secondary-dark dark:hover:bg-slate-600 transition-all duration-200 shadow">
       <div className="flex items-center justify-between w-full mb-8 md:mb-2">
         <div className="w-[75%] prose dark:prose-invert self-baseline text-left">
           <h2 className="mb-2 whitespace-nowrap">
