@@ -1,15 +1,12 @@
-import en from './locales/en.json';
-import fr from './locales/fr.json';
+import i18next from 'i18next';
+import I18nextBrowserLanguageDetector from 'i18next-browser-languagedetector';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { initReactI18next } from 'react-i18next';
-
-import i18next from 'i18next';
-import I18nextBrowserLanguageDetector from 'i18next-browser-languagedetector';
-
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './app';
+import en from './locales/en.json';
+import fr from './locales/fr.json';
 
 import './index.css';
 
@@ -17,7 +14,7 @@ i18next
   .use(I18nextBrowserLanguageDetector)
   .use(initReactI18next)
   .init({
-    debug: true,
+    debug: false,
     resources: {
       en: {
         translation: en,
@@ -32,14 +29,10 @@ i18next
     },
   });
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
-reportWebVitals();

@@ -5,10 +5,6 @@
   "homepage": "https://parriauxmaxime.github.io",
   "dependencies": {
     "@tailwindcss/typography": "^0.5.7",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.0",
     "@types/node": "^16.11.33",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.3",
@@ -17,54 +13,28 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-i18next": "^11.16.9",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.6.4",
-    "web-vitals": "^2.1.4"
+    "typescript": "^5.9.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "lint": "eslint **/*.tsx **/*.ts --fix --cache",
-    "format": "prettier -w . --cache",
-    "format:check": "prettier -c . --cache",
-    "build": "react-scripts build",
+    "start": "rsbuild dev",
+    "build": "rsbuild build && node scripts/prerender.mjs",
+    "preview": "rsbuild preview",
+    "lint": "biome check --write .",
+    "format": "biome format --write .",
+    "check": "biome check .",
+    "typecheck": "tsc --noEmit",
+    "ci": "biome check . && tsc --noEmit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
+    "@biomejs/biome": "^2.4.4",
+    "@rsbuild/core": "^1.7.3",
+    "@rsbuild/plugin-react": "^1.4.5",
     "autoprefixer": "^10.4.12",
-    "eslint": "^7.32.0 || ^8.2.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.17",
-    "prettier": "^2.7.1",
+    "puppeteer": "^24.37.5",
     "tailwindcss": "^3.1.8"
   }
 }

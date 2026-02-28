@@ -1,78 +1,204 @@
 {
-  "greeting": "Greeting",
-  "header": {
-    "me": "Me",
-    "experiences": "Achievements",
-    "projects": "Project",
-    "educations": "Education"
+  "hero": {
+    "name": "Maxime Parriaux",
+    "title": "Full-Stack Engineer · {{years}}+ years · From idea to production",
+    "positioning": "Versatile engineer who thrives across the stack — from React SPAs and Node microservices to cloud infrastructure and CI/CD pipelines. Joined Dotfile as one of 3 engineers, grew with the team to 10, leading projects end-to-end. Now amplified by AI tooling to move even faster.",
+    "looking_for": "Looking for a high-ownership IC role with direct impact on product and architecture. Remote preferred.",
+    "resume": "Resume"
   },
-  "resume": "Resume",
-  "presentation": "<strong>Maxime</strong>, full-stack software engineer with <strong>5+ years</strong> of experience, passionate about <strong>React</strong>, <strong>Node</strong> and <strong>Typescript</strong> ecosystems.<br /><br /> My previous experiences includes :",
-  "experiences": {
-    "smartrenting": "<strong>Smartrenting</strong>: Real estate agency specialized in seasonal and short-term rentals",
-    "carrevolutis": "<strong>Carrevolutis</strong>: Agency focused on digital recruitment events",
-    "4js": "<strong>4JS</strong>: ERP software editor specialized in high concurrency and high availability environment",
-    "whitequest": "<strong>WhiteQuest</strong>: Clean room trainings organism"
+  "approach": {
+    "title": "How I work",
+    "ownership": {
+      "title": "Full ownership",
+      "description": "I take features from spec to production — architecture, implementation, tests, deploy. No hand-offs, no gaps."
+    },
+    "velocity": {
+      "title": "Ship & iterate",
+      "description": "Working software beats perfect plans. I ship early, gather feedback, and refine. Small PRs, fast cycles."
+    },
+    "ai": {
+      "title": "AI-augmented",
+      "description": "AI is my multiplier, not my replacement. I use it to move faster on boilerplate so I can focus on the hard problems."
+    },
+    "bridge": {
+      "title": "Bridge builder",
+      "description": "I translate between product, design, and engineering. I've led projects where clarity mattered more than code."
+    }
   },
-  "focus": "I know how to <strong>design</strong>, <strong>implement</strong> and <strong>scale</strong> business-oriented features.<br/>Design is academic, implementation reflects knowledge, but <strong>if you want to scale, you need team-play</strong>.<br/><br/>My main focus is to deliver the best value to my stakeholders while delivering <strong>high-quality</strong>, <strong>scalable</strong>, <strong>reliable</strong> software, with a touch of <strong>delightful DX.</strong>",
+  "dotfile": {
+    "company": "Dotfile",
+    "subtitle": "KYB/KYC Compliance Platform",
+    "dates": "Jan 2023 – Feb 2026",
+    "headline": "Joined as one of 3 engineers. Grew with the team to 10.",
+    "domain": "RegTech · KYB · KYC · AML · IDV",
+    "categories": {
+      "security": {
+        "title": "Security & Auth",
+        "items": "MFA (TOTP), OIDC SSO, IP whitelisting, API rate limiting, RBAC, audit logs"
+      },
+      "ai": {
+        "title": "AI / LLM in Production",
+        "items": "Automated document checks, configurable LLM analysis per document type, fraud detection, autonomous case review orchestration, LangSmith observability"
+      },
+      "integrations": {
+        "title": "Integrations",
+        "items": "11+ providers end-to-end — Veriff, IDnow, Ubble, Resistant.AI, Workato, CompanyWatch, CreditSafe, and more"
+      },
+      "architecture": {
+        "title": "Architecture & Data",
+        "items": "Event-driven systems, webhooks, analytics (Rudderstack + BigQuery), in-app notifications (Knock), automated emails"
+      },
+      "dx": {
+        "title": "Build & DX",
+        "items": "Webpack → Rspack migration (30s → <5s builds), Nx monorepo tooling, reusable patterns adopted team-wide"
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": "Check viewer, analytics dashboards, Chakra UI v3 migration, client portal, design system"
+      }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "dotfile": {
+      "role": "Senior Full-Stack Engineer",
+      "company": "Dotfile",
+      "dates": "2023 – 2026",
+      "summary": "KYB/KYC compliance platform. Joined as one of 3 engineers, led most projects end-to-end as the team grew to 10.",
+      "achievements": "Built auth layer from scratch: MFA (TOTP) & OIDC SSO, Integrated 11+ external providers (IDV, fraud detection, e-signature, iPaaS), Shipped AI doc analysis pipeline with LangSmith observability, Migrated Webpack → Rspack — build times from 30s to <5s, Onboarded multiple senior engineers as team scaled",
+      "tags": "React, Node, TypeScript, GraphQL, PostgreSQL, AWS, Terraform, K8s"
+    },
+    "smartrenting_lead": {
+      "role": "Tech Lead",
+      "company": "Smartrenting",
+      "dates": "2021 – 2022",
+      "summary": "Promoted to lead. Co-led a team of 5 engineers and 1 PO on the Lloyd ERP platform.",
+      "achievements": "Co-led developer team and onboarded new engineers, Implemented Terraform pipeline via GitHub Actions CI, Hosted domain-wide demos and technical presentations to stakeholders",
+      "tags": "React, Nest, PostgreSQL, Redis, AWS, Terraform"
+    },
+    "smartrenting": {
+      "role": "Full-Stack Engineer",
+      "company": "Smartrenting",
+      "dates": "2019 – 2021",
+      "summary": "Built and scaled an internal ERP for short-term rental management — microservices, automation, AWS infrastructure.",
+      "achievements": "Designed event-driven microservice architecture from monolith, Implemented CQRS/Event sourcing patterns with Redis, Set up AWS infra (ECS, RDS, ElastiCache) and CI/CD",
+      "tags": "React, Nest, PostgreSQL, Redis, AWS, Microservices"
+    },
+    "carrevolutis": {
+      "role": "Full-Stack Engineer",
+      "company": "Carrevolutis",
+      "dates": "2018 – 2019",
+      "summary": "Maintained and improved a recruitment ERP — React Native app and React back office.",
+      "achievements": "Replaced poorly designed DAL — query performance improved 10-100×, Managed App Store & Play Store releases, Built a tech recruitment challenge with Next.js",
+      "tags": "React Native, React, GraphQL, Prisma, MongoDB"
+    },
+    "4js": {
+      "role": "React Developer (Intern)",
+      "company": "4JS",
+      "dates": "Feb – Aug 2017",
+      "summary": "Worked on the browser integration of the Genero ERP environment.",
+      "achievements": "Released a web component built with Draft.js for the Genero environment",
+      "tags": "React, Draft.js, 4GL, Informix"
+    },
+    "whitequest": {
+      "role": "Full-Stack Developer (Intern)",
+      "company": "WhiteQuest",
+      "dates": "Sep 2016 – Feb 2017",
+      "summary": "Designed and built a Cordova mobile app for clean room employee training and evaluation.",
+      "achievements": "Built full-stack training platform from the ground up for pharmaceutical/food industry",
+      "tags": "Ruby on Rails, Angular, Cordova"
+    }
+  },
+  "stack": {
+    "title": "Tech Stack",
+    "proficient": {
+      "label": "Proficient",
+      "items": "TypeScript, JavaScript, SQL, HTML, CSS, React, Node, NestJS, PostgreSQL, Tailwind, GraphQL, AWS, Redis, Terraform, K8s, Nx, Linux, Git"
+    },
+    "worked_with": {
+      "label": "Worked with",
+      "items": "React Native, MongoDB, ElasticSearch, Gremlin"
+    },
+    "methods": {
+      "label": "Methods",
+      "items": "DDD, TDD, CQRS, Event Sourcing"
+    },
+    "tools": {
+      "label": "Tools",
+      "items": "Claude Code, VS Code, Datadog, LangSmith, Linear, Figma, Notion"
+    }
+  },
   "projects": {
-    "title": "Project",
+    "title": "Projects",
+    "dotfile": {
+      "title": "Dotfile",
+      "description": "KYB/KYC compliance platform — the product I spent 3 years building. Auth, AI doc analysis, 11+ provider integrations.",
+      "stack": "React, Node, TypeScript, GraphQL, PostgreSQL, AWS",
+      "skills": "Product · Full-Stack · Architecture"
+    },
+    "open-setlist": {
+      "title": "Open Setlist",
+      "description": "Setlist manager PWA for musicians — song catalog, chord charts, performance mode. Runs fully offline, no backend.",
+      "stack": "React 19, TypeScript, Tailwind, Dexie, Rspack",
+      "skills": "PWA · Offline-First"
+    },
     "lloyd": {
       "title": "Lloyd",
-      "description": "Lloyd is an ERP developed by Smartrenting in order to automate trivial and non-trivial tasks inherent from subleasing business (prospecting, bookings, cleanings, inventories, ...)",
-      "stack": "React, Redux, Nest, Postgres, Redis, Typescript, AWS",
-      "skills": "Archi - Microservices - Scaling"
+      "description": "Internal ERP built at Smartrenting to automate rental management — prospecting, bookings, cleaning, inventories.",
+      "stack": "React, Nest, Postgres, Redis, AWS",
+      "skills": "Architecture · Microservices"
     },
     "bizzeo": {
       "title": "Bizzeo",
-      "description": "Bizzeo is a mobile application created by Carrevolutis intented to manage intended to organize networking and recruitment events for sales",
-      "stack": "React-Native, React, Prisma, GraphQL, Mongo",
-      "skills": "Mobile - Web - Backend"
+      "description": "Mobile app for organizing networking and recruitment events in the sales industry.",
+      "stack": "React Native, React, Prisma, GraphQL",
+      "skills": "Mobile · Full-Stack"
     },
     "web-ascii-art": {
       "title": "web-ascii-art",
-      "description": "One-day challenge, toying around HTML canvas api and convolution, render an ascii-art from your camera feed ",
-      "stack": "React, Typescript",
-      "skills": "Pixel art - Maths"
+      "description": "One-day challenge — renders ASCII art from your camera feed using HTML Canvas and convolution.",
+      "stack": "React, TypeScript, Canvas API",
+      "skills": "Creative Coding"
     },
     "skyquest": {
       "title": "Skyquest",
-      "description": "A Skyblog oddity<br/><0>Skyrock.com</0> is a social networking site based in France that apparently forgot to implement a rate limiter",
-      "stack": "Nest, JSDOM, SQL",
-      "skills": "Crawler - Data"
-    },
-    "whatsapp-pixel-art": {
-      "title": "whatsapp-pixel-art",
-      "description": "Whatsapp render exactly 13 emojis per line of text. All I see is pixel art potential, and you ?",
-      "stack": "React, Typescript",
-      "skills": "Pixel-art"
+      "description": "Data crawler for Skyrock.com — a social network that forgot to implement rate limiting.",
+      "stack": "Nest, JSDOM, PostgreSQL",
+      "skills": "Crawler · Data"
     }
   },
-  "educations": {
+  "education": {
     "title": "Education",
     "epitech_paris": {
-      "title": "Epitech Paris 🇫🇷",
-      "date": "2018 - 2019",
-      "description": "<strong>M.Sc. Computer Sciences</strong><br/>Graduated with a GPA of 3.0",
-      "skills": "Algo - React - React-Native"
+      "institution": "Epitech Paris",
+      "degree": "M.Sc. Computer Science",
+      "dates": "2018 – 2019",
+      "highlight": ""
     },
-    "roskilde_university": {
-      "title": "Roskilde Uni 🇩🇰",
-      "date": "2017-2018",
-      "description": "<strong>M.Sc. Computer Science and organization theory, 1st year</strong><br/>Minors: Web-development, Robotics",
-      "skills": "JS - Web - Project management"
+    "roskilde": {
+      "institution": "Roskilde University",
+      "degree": "Exchange Year — CS & Organization Theory",
+      "dates": "2017 – 2018",
+      "highlight": ""
     },
     "epitech_strasbourg": {
-      "title": "Epitech Strasbourg 🇫🇷",
-      "date": "2015 - 2017",
-      "description": "<strong>B.Sc. Computer Science</strong><br/><br />⭐ Valedictorian 2019 of Epitech's “Piscine”",
-      "skills": "Git - C - C++ - Python"
+      "institution": "Epitech Strasbourg",
+      "degree": "B.Sc. Computer Science",
+      "dates": "2015 – 2017",
+      "highlight": "Valedictorian"
     },
     "jules_haag": {
-      "title": "Jules Haag HS 🇫🇷",
-      "date": "2013 - 2015",
-      "description": "<strong>BTS IRIS</strong><br />2-year computer science technical degree<br/>⭐ Valedictorian",
-      "skills": "Hardware - Industry - Embedded"
+      "institution": "Jules Haag HS",
+      "degree": "BTS IRIS — CS Technical Degree",
+      "dates": "2013 – 2015",
+      "highlight": "Valedictorian · Cisco CCNA 3"
     }
+  },
+  "trivia": {
+    "title": "Beyond the code",
+    "items": "My dog is basically Mr. Peanutbutter from Bojack Horseman, Founded a cover band (still active) in my hometown 10 years ago, Diamond 3 at Rocket League, Rogue-like and incremental games enthusiast, Did at least one kickflip, Binged most of the Top 500 IMDb, TOEIC 945"
+  },
+  "footer": {
+    "built_with": "Built with React, Rspack & Tailwind"
   }
 }

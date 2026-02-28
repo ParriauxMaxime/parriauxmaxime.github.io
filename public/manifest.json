@@ -1,6 +1,6 @@
 {
-  "short_name": "PM",
-  "name": "Parriaux Maxime",
+  "short_name": "Maxime P.",
+  "name": "Maxime Parriaux — Full-Stack Engineer",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +19,7 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
+  "display": "browser",
+  "theme_color": "#18181b",
   "background_color": "#ffffff"
 }
